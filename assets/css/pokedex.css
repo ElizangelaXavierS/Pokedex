@@ -8,7 +8,7 @@
     margin: 0;
   
  }*/
- .pokemons{
+ .pokemons {
     display: grid;
     grid-template-columns: 1fr;
     list-style: none;
@@ -16,6 +16,57 @@
     margin: 0;
   
  }
+.normal {
+    background-color: #A6A877
+}
+.grass {
+    background-color: #77C850;
+}
+.fire {
+    background-color: #EE7F30;
+}
+.water {
+    background-color: #678FEE;
+}
+.eletric{
+    background-color: #F7CF2E;
+}
+.ice {
+    background-color: #98D5D7;
+}
+.ground {
+    background-color: #DFBF69;
+}
+.flying {
+    background-color: #A98FF0;
+}
+.poison {
+    background-color: #A040A0;
+}
+.fightong {
+    background-color: #BF3029;
+}
+.psychic {
+    background-color: #F65687;
+}
+.dark {
+    background-color: #B8A137;
+}
+.bug {
+    background-color: #A8B720;
+}
+.ghost {
+    background-color: #6E5896;
+}
+.stell {
+    background-color: #B9B7CF;
+}
+.dragon {
+    background-color: #6F38F6;
+}
+.fairy {
+  background-color: #F9AEC7;  
+}
 
 /*Fui subistituido pela class pokemon
 /*ol.pokemons li{
@@ -32,49 +83,52 @@
     height: 110px;
  }*/
 
- .pokemon{
+ .pokemon {
     display: flex;
     flex-direction: column;
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: #49D0B0;
+    
+   
     
  }
   
-.pokemon .number{
+.pokemon .number {
     color: #000;
     opacity: 3;
     text-align: right;
     font-size: .625;
 }
 
-.pokemon .name{
+.pokemon .name {
+    text-transform: capitalize;
     color: #fff; 
     margin-bottom: .25rem;
 }
-.pokemon .detail{
+.pokemon .detail {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.pokemon .detail .types{
+.pokemon .detail .types {
     padding: auto;
     margin: 0;
     list-style: none;
     
 }
-.pokemon .detail .types .type{
-    background-color: 61E1CA;
+.pokemon .detail .types .type {
     color: #fff;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
-    border-radius: 1rem
+    border-radius: 1rem;
+    text-align: center;
+    filter: brightness(1.1);
 }
 
-.pokemon .detail img{
+.pokemon .detail img {
     max-width: 100%;
     height: 70px;
 }
