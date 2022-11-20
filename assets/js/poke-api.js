@@ -25,7 +25,7 @@ pokeApi.getpokemonDetalhes = (pokemon) => {
 }
     
 
-pokeApi.getPokemons = (offset = 0, limit = 6) =>  {
+pokeApi.getPokemons = (offset = 0, limit = 5) =>  {
     const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 
     return fetch(url)                     // Interfase de comunicação de uma promese

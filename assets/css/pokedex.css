@@ -28,7 +28,7 @@
 .water {
     background-color: #678FEE;
 }
-.eletric{
+.electric{
     background-color: #F7CF2E;
 }
 .ice {
@@ -43,7 +43,7 @@
 .poison {
     background-color: #A040A0;
 }
-.fightong {
+.fighting {
     background-color: #BF3029;
 }
 .psychic {
@@ -51,6 +51,9 @@
 }
 .dark {
     background-color: #B8A137;
+}
+.rock {
+    background-color: #b8a137;
 }
 .bug {
     background-color: #A8B720;
